@@ -6,7 +6,7 @@ on:
       - master
       
   schedule:
-    - cron: "* * * * *"  # 每分钟触发一次
+    - cron: "0 7 * * *"  # 每天的 7:00 AM 触发
 
 jobs:
   auto_commit:
